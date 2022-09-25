@@ -16,8 +16,8 @@
   </head>
   <body>
     <section class="info">
-      <div class="container">
-        <header class="info__header">
+      <header class="info__header">
+        <div class="container">
           <svg
             class="info__header__logo"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,27 +43,39 @@
               />
             </g>
           </svg>
-        </header>
-      </div>
-      <img src="./images/hero-mobile.jpg" alt="" class="info__img" />
-      <div class="container">
-        <main class="info__main">
+        </div>
+      </header>
+      <img src="./images/hero-mobile.jpg" alt="" class="info__img--mobile" />
+      <main class="info__main">
+        <div class="container">
           <h2 class="info__main__title">
             We're <span class="bold">coming soon</span>
           </h2>
           <p class="info__main__para">
-            Hello fellow shoppers! We're currently building our new fashion store.
-            Add your email below to stay up-to-date with announcements and our
-            launch deals.
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
           </p>
           <form class="info__main__form">
-            <input class="info__main__form__input" type="email" placeholder="Email Address">
+            <input
+              class="info__main__form__input"
+              type="email"
+              placeholder="Email Address"
+            />
             <button class="info__main__form__btn">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20">
+                <path
+                  fill="none"
+                  stroke="#FFF"
+                  stroke-width="2"
+                  d="M1 1l8.836 8.836L1 18.671"
+                />
+              </svg>
             </button>
           </form>
-        </main>
-      </div>
+        </div>
+      </main>
+      <img src="./images/hero-desktop.jpg" alt="" class="info__img--desktop" />
     </section>
   </body>
 </html>
